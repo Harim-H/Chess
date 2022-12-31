@@ -1,0 +1,40 @@
+---
+# Members of your group.
+group:
+  - name: Chenling Huang
+    netid: ch687
+  - name: Harim Hahn
+    netid: hmh79
+  - name: Doan-Viet Nguyen
+    netid: dtn26
+  - name: Lin Jing Liu
+    netid: ll676
+# Your PM.
+pm:
+  name: Desai Wang
+  netid: dw584
+# Set to false if you don't want your gallery entry to be public.
+publish: true
+# Pithy title
+title: "OCaml Chess"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/ll676/3110_final_project"
+# If you have no demo screencast, replace the url string with an empty string ""
+demo-video-url: ""
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Our project is an implementation of classical Chess Game in Ocaml. Currrently,
+  it supports two player play mode via the terminal. The Chess Board is displayed
+  on the terminal using special Unicode characters. The players interacts with 
+  the GUI by inputting text commands in the chess notation, or by inputting other
+  commands such as Undo, Resign or Draw. We have implemented normal chess piece 
+  moves and other special moves in classical chess, such as castling, promotion 
+  and en passant. The game can end in a draw, resignation from one player, or a 
+  checkmate, which will be automatically detected by the program to infer that 
+  one player has lost the game.
+  In addition to classical chess, we implemented an anarchy chess mode 
+  where random types of chess pieces are randomly generated on random starting 
+  positions. This game mode added randomness and is a great challenge for players
+  looking for one. All classical chess movement limitation and rules still applies
+  in anarchy mode.
+
